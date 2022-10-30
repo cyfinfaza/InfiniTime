@@ -23,6 +23,7 @@ RUN apt-get update -qq \
 # aarch64 packages
       libffi-dev \
       libssl-dev \
+      nodejs \
       python3-dev \ 
       rustc \
     && rm -rf /var/cache/apt/* /var/lib/apt/lists/*;
