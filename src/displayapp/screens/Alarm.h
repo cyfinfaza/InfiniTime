@@ -59,8 +59,8 @@ namespace Pinetime {
         void HideInfo();
         void ToggleRecurrence();
         void UpdateAlarmTime();
-        Widgets::Counter hourCounter = Widgets::Counter(0, 23, jetbrains_mono_76);
-        Widgets::Counter minuteCounter = Widgets::Counter(0, 59, jetbrains_mono_76);
+        Widgets::Counter hourCounter = Widgets::Counter(0, 23, inter_medium_76);
+        Widgets::Counter minuteCounter = Widgets::Counter(0, 59, inter_medium_76);
       };
     };
   };

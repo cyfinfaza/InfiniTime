@@ -28,9 +28,9 @@ if(DEFINED USE_DEBUG_PINS AND USE_DEBUG_PINS)
   add_definitions(-DUSE_DEBUG_PINS)
 endif()
 
-if(BUILD_DFU)
+# if(BUILD_DFU)
   set(BUILD_DFU true)
-endif()
+# endif()
 
 if(BUILD_RESOURCES)
   set(BUILD_RESOURCES true)
