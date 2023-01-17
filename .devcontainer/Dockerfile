@@ -26,6 +26,7 @@ RUN apt-get update -qq \
       nodejs \
       python3-dev \ 
       rustc \
+      npm \
     && rm -rf /var/cache/apt/* /var/lib/apt/lists/*;
     
 #SET LOCALE 
@@ -33,6 +34,10 @@ RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8 
+
+# stuff that should already be here
+RUN npm install lv_font_conv
+RUN pip3 install cbor
 
 RUN pip3 install adafruit-nrfutil
 # required for McuBoot
