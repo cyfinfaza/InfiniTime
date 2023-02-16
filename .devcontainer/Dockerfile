@@ -23,7 +23,7 @@ RUN apt-get update -qq \
 # aarch64 packages
       libffi-dev \
       libssl-dev \
-      nodejs \
+    #   nodejs \
       python3-dev \ 
       rustc \
       npm \
@@ -36,7 +36,7 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8 
 
 # stuff that should already be here
-RUN npm install lv_font_conv
+# RUN npm install lv_font_conv
 RUN pip3 install cbor
 
 RUN pip3 install adafruit-nrfutil

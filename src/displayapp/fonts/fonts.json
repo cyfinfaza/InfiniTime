@@ -31,7 +31,7 @@
     "sources": [
       {
         "file": "JetBrainsMono-Light.ttf",
-        "range": "0x25, 0x2D, 0x2F, 0x30-0x3a"
+        "range": "0x25"
       }
     ],
     "bpp": 1,
@@ -47,40 +47,40 @@
     "bpp": 1,
     "size": 80
   },
-  "open_sans_light": {
+  "cdf_halfheight": {
     "sources": [
       {
-        "file": "open_sans_light.ttf",
+        "file": "Manrope/static/Manrope-SemiBold.ttf",
         "symbols": "0123456789"
       }
     ],
-    "bpp": 1,
+    "bpp": 2,
     "size": 150
   },
-  "inter_medium_76": {
+  "cdf_medium_76": {
     "sources": [
       {
-        "file": "Inter-Bold.ttf",
+        "file": "Manrope/static/Manrope-SemiBold.ttf",
         "range": "0x25, 0x2D, 0x2F, 0x30-0x3a"
       }
     ],
     "bpp": 2,
     "size": 76
   },
-  "inter_medium_42": {
+  "cdf_medium_42": {
     "sources": [
       {
-        "file": "Inter-Bold.ttf",
+        "file": "Manrope/static/Manrope-SemiBold.ttf",
         "range": "0x25, 0x2b, 0x2d, 0x30-0x3a"
       }
     ],
     "bpp": 2,
-    "size": 76
+    "size": 42
   },
-  "inter_medium_20": {
+  "cdf_medium_20": {
     "sources": [
       {
-        "file": "Inter-Bold.ttf",
+        "file": "Manrope/static/Manrope-Bold.ttf",
         "range": "0x20-0x7e, 0x410-0x44f"
       },
       {
@@ -91,10 +91,10 @@
     "bpp": 4,
     "size": 20
   },
-  "inter_extrabold": {
+  "cdf_bignumber": {
     "sources": [
       {
-        "file": "Inter-ExtraBold.ttf",
+        "file": "Manrope/static/Manrope-ExtraBold.ttf",
         "range": "0x30-0x3a"
       }
     ],

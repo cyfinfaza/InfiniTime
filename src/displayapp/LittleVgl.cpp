@@ -198,10 +198,10 @@ void LittleVgl::InitTheme() {
   lv_theme_t* th = lv_pinetime_theme_init(LV_COLOR_WHITE,
                                           LV_COLOR_SILVER,
                                           0,
-                                          &inter_medium_20,
-                                          &inter_medium_20,
-                                          &inter_medium_20,
-                                          &inter_medium_20);
+                                          &cdf_medium_20,
+                                          &cdf_medium_20,
+                                          &cdf_medium_20,
+                                          &cdf_medium_20);
 
   lv_theme_set_act(th);
 }
